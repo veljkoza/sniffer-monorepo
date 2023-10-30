@@ -1,0 +1,7 @@
+{
+    "name": "@sniffer/domain",
+    "dependencies": {
+      "typescript": "latest",
+      "@sniffer/infrastructure": "*"
+    }
+  }
