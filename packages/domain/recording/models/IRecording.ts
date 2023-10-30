@@ -31,4 +31,12 @@ export namespace RecordingModels {
       url: string;
     }
   }
+
+  export namespace GetRecording {
+    export interface IRequestDTO {
+      [k: string]: any;
+      id: string;
+    }
+    export interface IResponseDTO extends Recording {}
+  }
 }

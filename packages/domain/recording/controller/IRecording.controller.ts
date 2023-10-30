@@ -11,4 +11,8 @@ export interface IRecordingController {
   generateUrl(
     params: RecordingModels.GenerateUrl.IRepositoryPayload
   ): Promise<RecordingModels.GenerateUrl.IResponseDTO>;
+
+  getRecording(
+    params: RecordingModels.GetRecording.IRequestDTO
+  ): Promise<RecordingModels.GetRecording.IResponseDTO>;
 }

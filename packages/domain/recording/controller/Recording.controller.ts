@@ -25,4 +25,11 @@ export class RecordingController implements IRecordingController {
     const recording = await this.recordingRepository.createRecording(params);
     return recording;
   };
+
+  getRecording: MethodType<IRecordingController["getRecording"]> = async (
+    params
+  ) => {
+    const recording = await this.recordingRepository.getRecording(params);
+    return recording;
+  };
 }
