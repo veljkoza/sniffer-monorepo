@@ -3,12 +3,9 @@
     "main": "dist/index.js",
     "types": "index.ts",
     "type": "commonjs",
-    "exclude": [
-        "node_modules"
-      ],
     "scripts": {
-        "build": "tsc"
-      },
+        "build": "npx tsc"
+    },
     "dependencies": {
         "typescript": "latest",
         "@aws-sdk/client-s3": "^3.438.0",
