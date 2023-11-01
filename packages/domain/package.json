@@ -1,7 +1,17 @@
 {
-    "name": "@sniffer/domain",
-    "dependencies": {
-      "typescript": "latest",
-      "@sniffer/infrastructure": "*"
-    }
+  "name": "@sniffer/domain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "typescript": "latest",
+    "tsconfig": "*",
+    "eslint-config-custom": "*",
+    "@sniffer/infrastructure": "*"
   }
+}

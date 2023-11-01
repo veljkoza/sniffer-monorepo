@@ -1,5 +1,5 @@
 import { appDataSource, AWS } from "@sniffer/infrastructure";
-import { Recording } from "@sniffer/infrastructure/database/entities/Recording";
+import { Recording } from "@sniffer/infrastructure";
 import { IRecordingRepository } from "./IRecording.repository";
 import { MethodType } from "../../utils";
 import { Repository } from "typeorm";

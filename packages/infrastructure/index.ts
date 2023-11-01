@@ -1,2 +1,1 @@
-export * as AWS from "./aws";
-export * from "./database";
+export * from "./src";

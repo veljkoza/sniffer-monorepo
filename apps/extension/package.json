@@ -1,5 +1,5 @@
 {
-  "name": "@sniffer/extension",
+  "name": "extension",
   "version": "1.0.1",
   "scripts": {
     "dev": "vite",
